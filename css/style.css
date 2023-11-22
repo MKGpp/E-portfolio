@@ -1,0 +1,86 @@
+:root{
+    --cs-dark: #0b292d;
+    --cs-grey: #A2A3BB;
+    --cs-green: rgba(62, 89, 55, 0.75);
+    --cs-brown: #685155;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/*CSS for the navbar style*/
+
+nav {
+    background-color: var(--cs-dark);
+}
+.navbar-toggler {
+    position: relative;
+    top: 3px;
+}
+
+/*CSS for the chat icon and email modal*/
+
+#contact_image {
+    color: #f0f0f0;
+}
+#chat_box {
+    transition: transform 0.3s ease-in-out;
+}
+#chat_box:hover {
+    transform: scale(1.3);
+}
+.chatbox-icon-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.email{
+    color: var(--cs-grey);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.email .modal-header {
+    border-bottom: none;
+}
+
+.email .modal-title {
+    color: #333333;
+}
+
+.email .modal-body,
+.email .modal-footer {
+    border-top: none;
+}
+
+.email .form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.email .btn-dark {
+    background-color: var(--cs-dark);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.email .btn-dark:hover {
+    background-color: #1a1a1a;
+}
+/*Colors for each section*/
+
+#hero {
+    background-color: var(--cs-dark);
+}
+
+#resume {
+    background-color: var(--cs-green);
+}
+
+.offcanvas {
+    background-image: linear-gradient(var(--cs-dark), var(--cs-green));
+}
