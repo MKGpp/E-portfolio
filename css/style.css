@@ -100,3 +100,10 @@ nav {
 .offcanvas {
     background-image: linear-gradient(var(--cs-dark), var(--cs-green));
 }
+
+/*Section for the project page*/
+
+.card {
+    background-color: var(--cs-dark);
+    color: #f0f0f0;
+}
