@@ -1,7 +1,7 @@
 :root{
     --cs-dark: #0b292d;
     --cs-grey: #A2A3BB;
-    --cs-green: rgba(62, 89, 55, 0.75);
+    --cs-green: #639FAB;
     --cs-brown: #685155;
 }
 
@@ -18,6 +18,22 @@ nav {
 .navbar-toggler {
     position: relative;
     top: 3px;
+}
+#menu-bar {
+    transition: transform 0.3s ease-in-out;
+}
+#menu-bar:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(var(--cs-dark), var(--cs-green));
+}
+
+.icons a{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.icons a:hover {
+    opacity: 1;
 }
 
 /*CSS for the chat icon and email modal*/
