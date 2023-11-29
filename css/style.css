@@ -141,3 +141,12 @@ nav {
 #menu-bottom {
     background-image: linear-gradient(90deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
 }
+
+.footer-icons {
+    height: 15vh;
+}
+
+.socials {
+    height: 35px;
+}
+
