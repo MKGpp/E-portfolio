@@ -69,6 +69,13 @@ nav {
     color: #333333;
 }
 
+.modal-btn {
+    width: 15px;
+    margin: 0;
+    left: auto;
+    right: 50px;
+}
+
 .email .modal-body,
 .email .modal-footer {
     border-top: none;
@@ -97,7 +104,8 @@ nav {
 
 }
 
-#hero {
+#hero,
+#contact {
     background-image: linear-gradient(180deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
 }
 
@@ -120,8 +128,13 @@ nav {
     padding: 0;
 }
 
-.personal-projects {
+.personal-projects,
+.school-projects {
     background-image: linear-gradient(180deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
+}
+.school-projects {
+    position: relative;
+    top: 75px;
 }
 
 .project-title {
@@ -138,7 +151,7 @@ nav {
 
 /* Footer section */
 
-#menu-bottom {
+.footer {
     background-image: linear-gradient(90deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
 }
 
@@ -147,6 +160,6 @@ nav {
 }
 
 .socials {
-    height: 35px;
+    height: 30px;
 }
 

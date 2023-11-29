@@ -11,7 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <nav class="navbar navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.jpg" width="70" alt="logo MKG"></a>
+            <a class="navbar" type="button" href="index.html"><img src="images/logo.jpg" width="70" alt="logo MKG"></a>
             <div class="d-flex align-items-end justify-content-end p-2 fixed-top">
                 <button id="menu-bar" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span>Menu</span>
@@ -50,42 +50,44 @@
     <div class="container-fluid" id="project">
         <img src="images/project.jpg" alt="coding" class="w-100 vh-100 z-n1 position-fixed opacity-75">
     </div>
-    <h1 class="project-title">Coding & School Projects</h1>
-    <div class="container vh-100 d-flex justify-content-center align-items-center">
-        <div class="row row-cols-sm-3 gap-5 d-flex justify-content-center">
-            <div class="col card w-25" style="width: 18rem;">
-                <a href="#"><img src="images/climb.jpg" class="card-img-top mt-2" alt="climbing picture"></a>
-                <div class="card-body">
-                    <h5 class="card-title">On The Rocks</h5>
-                    <p class="card-text">A first year project aimed at learning to create a responsive webpage using only HTML5 and CSS3. In this project I created a sales page for a rock climbing instructor/guiding business. Climbing is a huge passion of mine.</p>
-                    <a href="#" class="btn btn-dark">Visit On The Rocks</a>
-                </div>
+        <h1 class="project-title">Coding & School Projects</h1>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="container row school-projects text-light mt-3">
+            <div class="col-md-6 mt-5">
+                <img src="images/climb.jpg" class="w-100" alt="climbing picture">
             </div>
-            <div class="col card w-25" style="width: 18rem;">
-                <img src="images/broken.jpg" class="card-img-top mt-2" alt="broken phone">
-                <div class="card-body">
-                    <h5 class="card-title">Cell Phone Repair</h5>
-                    <p class="card-text">A python project that takes input and writes it to a file saving cell phone information for a repair shop and allows you to search the "database" to find phones by serial # or name. This was my first project using python.</p>
-                    <a href="#" class="btn btn-dark">Launch program</a>
-                </div>
+            <div class="col-md-6 mt-5">
+                <h5>On The Rocks</h5>
+                <p>A first year project aimed at learning to create a responsive webpage using only HTML5 and CSS3. In this project I created a sales page for a rock climbing instructor/guiding business. Climbing is a huge passion of mine.</p>
+                <a href="#" class="btn btn-dark">Visit On The Rocks</a>
             </div>
-            <div class="col card d-flex align-items-center w-25" style="width: 18rem;">
-                <img src="images/python-project.jpg" class="card-img-top mt-2 h-50" alt="python project">
-                <div class="card-body">
-                    <h5 class="card-title">Validity Checker</h5>
-                    <p class="card-text">A vey simple python program that I created to practice using regex expressions to check input of different types and determine whether they match the criteria or not</p>
-                    <a href="#" class="btn btn-dark">Try it out!</a>
-                </div>
+
+            <div class="col-md-6 mt-5 mb-5">
+                <img src="images/broken.jpg" class="w-100" alt="broken phone">
+            </div>
+            <div class="col-md-6 mt-5 mb-5">
+                <h5>Cell Phone Repair</h5>
+                <p>A python project that takes input and writes it to a file saving cell phone information for a repair shop and allows you to search the "database" to find phones by serial # or name. This was my first project using python.</p>
+                <a href="#" class="btn btn-dark">Launch program</a>
+            </div>
+
+            <div class="col-md-6 mb-5">
+                <img src="images/python-project.jpg" class="w-100" alt="python project">
+            </div>
+            <div class="col-md-6 mb-5">
+                <h5>Validity Checker</h5>
+                <p>A vey simple python program that I created to practice using regex expressions to check input of different types and determine whether they match the criteria or not</p>
+                <a href="#" class="btn btn-dark mt-4">Try it out!</a>
             </div>
         </div>
     </div>
     <h1 class="text-light d-flex justify-content-center">Personal Projects (In The Works...)</h1>
-    <div class="container mt-5 bg-dark personal-projects">
+    <div class="container mt-5 personal-projects">
         <div class="row text-light p-3">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <img src="images/ability-stone-project.jpg" alt="lost-ark-project" class="w-100">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h3 class="d-flex justify-content-center mb-5 mt-5">Ability stone Calculator</h3>
                 <p>This project is to recreate the ability stone cutting interface for the game Lost Ark. This is a personal project I decided to work on because I thought it would be interesting to recreate constantly changing probability and would be good practice for my coding skills.</p>
                 <div class="d-flex justify-content-center">
@@ -96,10 +98,10 @@
     </div>
     <div class="container personal-projects mb-3">
         <div class="row flex-row-reverse text-light p-3">
-            <div class="col-md-6">
-                <img src="images/beaver.jpg" alt="beaver game" class="w-100">
+            <div class="col-md-8">
+                <img src="images/beaver.jpg" alt="beaver game" class="w-100 h-100">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h3 class="d-flex justify-content-center mb-5 mt-5">Hoppy Beaver</h3>
                 <p>This is a simple side-scroller game I made in javaScript through the khan academy JavaScript games and animation course. this is a work in progress as the game is not 100% complete.</p>
                 <div class="d-flex justify-content-center">
@@ -108,7 +110,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid d-flex justify-content-end align-items-bottom fixed-bottom p-5">
+    <div class="container-fluid modal-btn fixed-bottom p-5">
         <button type="button" data-bs-toggle="modal" data-bs-target="#email" data-bs-whatever="@getbootstrap" class="chatbox-icon-button"><img src="images/chat-left-text-fill.svg" alt="chat box" height="50" id="chat_box"></button>
     </div>
 
@@ -137,33 +139,35 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid p-0">
-        <footer class="text-light" id="menu-bottom">
-            <div class="">
-                <ul class="nav px-2 mx-5 gap-5 justify-content-center">
-                    <li class="nav-item mb-2 mt-3">
-                        <a href="index.html" class="nav-link p-0 text-light">Home</a>
-                    </li>
-                    <li class="nav-item mb-2 mt-3">
-                        <a href="about.html" class="nav-link p-0 text-light">Personal</a>
-                    </li>
-                    <li class="nav-item mb-2 mt-3">
-                        <a href="projects.html" class="nav-link p-0 text-light">Projects</a>
-                    </li>
-                    <li class="nav-item mb-2 mt-3">
-                        <a href="contact.html" class="nav-link p-0 text-light">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex justify-content-center align-items-end gap-4 mt-2 footer-icons">
-                <a href="http://facebook.com"><img src="images/facebook.svg" alt="facebook icon" class="socials"></a>
-                <a href="http://instagram.com"><img src="images/instagram.svg" alt="instagram icon" class="socials"></a>
-                <a href="http://twitter.com"><img src="images/twitter-x.svg" alt="twitter icon" class="socials"></a>
-            </div>
-            <div class="p-3 d-flex justify-content-center">
-                <p>© Copyright 2023 MKG Inc.</p>
-            </div>
-        </footer>
+    <div class="container-fluid footer">
+        <div class="container">
+            <footer class="text-light" id="menu-bottom">
+                <div class="">
+                    <ul class="nav row row-cols-sm-6 d-flex justify-content-center">
+                        <li class="row nav-item mt-5">
+                            <a href="index.html" class="nav-link p-0 text-light d-flex justify-content-center">Home</a>
+                        </li>
+                        <li class="row nav-item mt-5">
+                            <a href="about.html" class="nav-link p-0 text-light d-flex justify-content-center">Personal</a>
+                        </li>
+                        <li class="row nav-item mt-5">
+                            <a href="projects.html" class="nav-link p-0 text-light d-flex justify-content-center">Projects</a>
+                        </li>
+                        <li class="row nav-item mt-5">
+                            <a href="contact.html" class="nav-link p-0 text-light d-flex justify-content-center">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-center align-items-end gap-4 mt-2 footer-icons">
+                    <a href="http://facebook.com"><img src="images/facebook.svg" alt="facebook icon" class="socials"></a>
+                    <a href="http://instagram.com"><img src="images/instagram.svg" alt="instagram icon" class="socials"></a>
+                    <a href="http://twitter.com"><img src="images/twitter-x.svg" alt="twitter icon" class="socials"></a>
+                </div>
+                <div class="p-3 d-flex justify-content-center">
+                    <p>© Copyright 2023 MKG Inc.</p>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
 </html>
