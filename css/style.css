@@ -11,6 +11,7 @@ html,body {
     width: 100%;
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 /*CSS for the navbar style*/
 
@@ -97,11 +98,10 @@ nav {
 .email .btn-dark:hover {
     background-image: linear-gradient(180deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
 }
-/*Colors for each section*/
+/*Colors and styles for each section*/
 
 .hero {
     background-image: linear-gradient(180deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
-
 }
 
 #contact {
@@ -114,6 +114,27 @@ nav {
 
 .offcanvas {
     background-image: linear-gradient(var(--cs-dark), var(--cs-green));
+}
+
+/*Styling for the main page*/
+
+#down {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover #down {
+    transform: translateY(10px);
+}
+
+.title {
+    text-shadow: 8px 8px 4px var(--cs-blue);
+}
+
+@media only screen and (min-width: 1025px) {
+    #main-text {
+        width: 30%;
+    }
 }
 
 /*Section for the project page*/
