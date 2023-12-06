@@ -5,6 +5,7 @@
     --cs-brown: #685155;
     --cs-light: #02586a;
     --cs-blue: #020024;
+    --cs-lightgreen: #516b2f;
 }
 
 html,body {
@@ -110,6 +111,9 @@ nav {
     background-image: linear-gradient(180deg, var(--cs-dark) 0%, var(--cs-light) 50%, var(--cs-dark) 100%);
 }
 
+.contact {
+    background-color: var(--cs-lightgreen);
+}
 #contact {
     background-color: var(--cs-green);
 }
@@ -172,7 +176,6 @@ a:hover #down {
 }
 
 /*Section for the About me page*/
-
 
 
 /* Footer section */
