@@ -56,15 +56,14 @@
 
 <!--first section-->
 
-    <div class="container-fluid bg-dark">
-        <div class="row text-light vh-100">
-
-            <div class="col-md-6 d-flex justify-content-center align-items-center p-0">
-                <img src="images/pyramid.jpg" alt="Egypt" class="h-100 w-100 opacity-75">
+    <div class="container-fluid text-light p-0">
+        <div class="row">
+            <div class="bg-dark col-md-6 mt-5 p-0 d-flex align-items-center hero">
+                <img src="images/pyramid.jpg" alt="Egypt" class="w-100 opacity-75">
             </div>
 
-            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center hero">
-                <h1 class="mb-4 mt-3">On A Personal Note...</h1>
+            <div class="hero col-md-6 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="mb-5 mt-5">On A Personal Note...</h1>
                 <p class="text-wrap px-5">
                     Before diving into the world of software I worked as a chef for a very long time.<br>
                     I started cooking professionally when I was 14 years old and went to school for my Red Seal Certification
@@ -77,13 +76,13 @@
 
 <!--second section -->
 
-    <div class="container-fluid bg-dark">
-        <div class="row flex-row-reverse text-light">
-            <div class="col-md-6 p-0 vh-100">
-                <img src="images/climbing_me3.jpg" alt="Me!" class="w-100 h-100">
+    <div class="container-fluid text-light p-0">
+        <div class="row flex-row-reverse">
+            <div class="bg-dark col-md-6 p-0 d-flex align-items-center hero">
+                <img src="images/climb_me.jpg" alt="Me!" class="w-100">
             </div>
-            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center vh-100 hero">
-                <h1 class="mb-5">Hobbies & Interests</h1>
+            <div class="hero col-md-6 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="mb-5 mt-5">Hobbies & Interests</h1>
                 <p class="text-wrap px-5">
                     My personal hobbies and lifestyle is very out-doors driven which is in part why I love Victoria and have been living here my whole life.
                     My biggest hobby and passion is rock climbing, it is something that takes up a large majority of my free time and I try to spend most of my summers
@@ -108,7 +107,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="mailto:fake@email.com" method="post">
                         <div class="mb-3">
                             <label for="email-address" class="col-form-label"></label>
                             <input type="email" class="form-control" id="email-address" placeholder="Enter your email...">
@@ -117,10 +116,10 @@
                             <label for="message-text" class="col-form-label"></label>
                             <textarea class="form-control email" id="message-text" placeholder="Please let me know how I can help you!"></textarea>
                         </div>
+                        <div class="modal-footer">
+                            <input type="submit" value="Send Email" class="btn btn-dark">
+                        </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-dark">Send Email</button>
                 </div>
             </div>
         </div>

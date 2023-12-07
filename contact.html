@@ -56,7 +56,7 @@
 
 <!--hero section-->
 
-    <div class="container-fluid contact d-flex justify-content-center vh-100">
+    <div class="container-fluid contact d-flex justify-content-center bg-dark vh-100">
         <div class="container row d-flex justify-content-center hero">
             <div class="row d-flex justify-content-center align-items-end mt-5 text-light">
                 <h2 class="d-flex justify-content-center mt-5">Contact Me!</h2>
@@ -97,7 +97,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="mailto:fake@email.com" method="post">
                         <div class="mb-3">
                             <label for="email-address" class="col-form-label"></label>
                             <input type="email" class="form-control" id="email-address" placeholder="Enter your email...">
@@ -106,10 +106,10 @@
                             <label for="message-text" class="col-form-label"></label>
                             <textarea class="form-control email" id="message-text" placeholder="Please let me know how I can help you!"></textarea>
                         </div>
+                        <div class="modal-footer">
+                            <input type="submit" value="Send Email" class="btn btn-dark">
+                        </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-dark">Send Email</button>
                 </div>
             </div>
         </div>
